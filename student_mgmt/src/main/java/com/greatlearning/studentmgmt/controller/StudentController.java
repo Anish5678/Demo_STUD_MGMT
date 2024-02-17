@@ -61,6 +61,6 @@ public class StudentController {
 	}
 	@PostMapping("/403")
 	public String access(Model model) {
-		return "students/403";
+		return "403";
 	}
 }
